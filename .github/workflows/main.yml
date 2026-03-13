@@ -15,3 +15,5 @@ node-version: '18'
 run: npm install
 - name: Run tests
 run: node ./node_modules/jest/bin/jest.js
+- name: Start application
+run: echo "Deploy to DEV environment"
